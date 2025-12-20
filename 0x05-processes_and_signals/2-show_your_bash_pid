@@ -1,5 +1,5 @@
-# Make it executable
-chmod +x 2-show_your_bash_pid
+#!/usr/bin/env bash
+# Script that displays lines containing the word bash from process list
+# shellcheck disable=SC2009
 
-# Test it
-./2-show_your_bash_pid
+ps auxf | grep bash
