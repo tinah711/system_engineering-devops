@@ -1,0 +1,5 @@
+# Make it executable
+chmod +x 2-show_your_bash_pid
+
+# Test it
+./2-show_your_bash_pid
